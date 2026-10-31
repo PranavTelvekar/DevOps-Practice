@@ -28,3 +28,14 @@ jobs:
 
       - name: Run automated tests
         run: npm test
+
+  deploy-production:
+    name: Deploy to Production
+    needs: test
+    runs-on: ubuntu-latest
+
+    environment: production
+
+    steps:
+      - name: Simulate a production deploy
+        run: echo "Deploying to production now that a human has approved this run."
