@@ -1,0 +1,9 @@
+{
+  "name": "build-demo",
+  "version": "1.0.0",
+  "description": "GitHub Actions CI/CD hands-on project",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.test.js"
+  }
+}
